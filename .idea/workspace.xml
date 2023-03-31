@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff4ab56b-e146-4f0d-89d7-dbfda1754305" name="Default Changelist" comment="" />
+    <list default="true" id="ff4ab56b-e146-4f0d-89d7-dbfda1754305" name="Default Changelist" comment="Basically done">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/controller/AddressBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/controller/OrderDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/controller/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/entity/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/entity/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/entity/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/mapper/AddressBookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/mapper/ShoppingCartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/service/AddressBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/service/OrderDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/service/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/service/impl/AddressBookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yujian/reggie/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/controller/AddressBookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/controller/OrderDetailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/controller/ShoppingCartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/entity/AddressBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/entity/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/entity/Orders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/entity/ShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/mapper/AddressBookMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/mapper/OrderDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/mapper/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/mapper/ShoppingCartMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/service/AddressBookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/service/OrderDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/service/ShoppingCartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/service/impl/AddressBookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/service/impl/OrderDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yujian/reggie/service/impl/ShoppingCartServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +89,9 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="2MRwLLEi05B7NXw3AqYlSHf7AB2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -133,6 +178,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basically done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basically done" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1678272004389">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -150,6 +199,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1679214932132" />
+    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1680254365271">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1680254365271" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1678719228848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -206,6 +259,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1679214618762" />
+    <state x="757" y="230" key="RollbackChangesDialog" timestamp="1680254345505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="757" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1680254345505" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1677743780878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
